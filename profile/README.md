@@ -18,4 +18,10 @@ Each run works on its own git branch. Your checkout stays untouched. Finished wo
 - **Website:** [worca.dev](https://worca.dev)
 - **Docs:** [docs.worca.dev](https://docs.worca.dev)
 - **Install:** [`@worca/app` on npm](https://www.npmjs.com/package/@worca/app)
-- **Source:** [SinishaDjukic/worca-cc](https://github.com/SinishaDjukic/worca-cc), moving here soon
+
+## Repositories
+
+- **[worca](https://github.com/worca-org/worca)**: the app. The pipeline, the web UI and the CLI, published as [`@worca/app`](https://www.npmjs.com/package/@worca/app) and the container image `ghcr.io/worca-org/worca`.
+- **[worca-platform](https://github.com/worca-org/worca-platform)**: run your own hosted Worca. A multi-tenant management platform on Cloudflare, published as [`@worca/platform`](https://www.npmjs.com/package/@worca/platform) and [`@worca/create-platform`](https://www.npmjs.com/package/@worca/create-platform).
+
+Contributions are welcome in both. Start with each repository's `CONTRIBUTING.md`.
